@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .caja{
+        border: 1px solid purple ;
+        background-color: antiquewhite;
+        width: 100px;
+        height: 2rem;
+    }
+    .static{
+        position: static;
+
+    }
+    .relative{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .absoluto{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .absoluto span {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .fijo{
+        position: fixed;
+        right: 10px;
+        top: 10px;
+    }
+    .sticky{
+        position: sticky;
+        right: 10px;
+        top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="caja static">caja 1</div>
+    <div class="caja relative">ca<span>j</span>a 2</div>
+    <div class="caja">caja 3</div>
+    <div class="caja absoluto">ca <span>j</span>a 4</div>
+    <div class="caja absoluto">caja 5</div>
+    <div class="caja fijo">caja 6</div>
+    <div class="caja sticky">caja 7</div>
+    
+    <div class="caja">caja </div>
+    <div class="caja">caja </div>
+    <div class="caja">caja </div>
+    <div class="caja">caja </div>
+    <div class="caja">caja </div>
+    <div class="caja">caja </div>
+</body>
+</html>
