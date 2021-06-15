@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section.celdas{
+            display:grid;
+            grid-template-columns: 2fr repeat(2, 1fr);
+            grid-template-rows: 75px 200px;
+            grid-auto-rows: 50px;
+        }
+        section.celdas2{
+            display:grid;
+            grid-template-columns: 100px 1fr minmax(100px, 1fr);
+            grid-template-rows: 75px 100px;
+            grid-auto-rows: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Grid</h1>
+    <h2>Tamaños fijos</h2>
+    <section class="celdas">
+        <p>celda 1</p>
+        <p>celda 2</p>
+        <p>celda 3</p>
+        <p>celda 4</p>
+        <p>celda 5</p>
+        <p>celda 6</p>
+        <p>celda 7</p>
+        <p>celda 8</p>
+        <p>celda 9</p>
+        <p>celda 10</p>
+        <p>celda 11</p>
+    </section>
+    <h2>tamaños variables</h2>
+    <section class="celdas2">
+        <p>celda 1</p>
+        <p>celda 2</p>
+        <p>celda 3</p>
+        <p>celda 4</p>
+        <p>celda 5</p>
+        <p>celda 6</p>
+        <p>celda 7</p>
+        <p>celda 8</p>
+        <p>celda 9</p>
+        <p>celda 10</p>
+        <p>celda 11</p>
+    </section>
+</body>
+</html>

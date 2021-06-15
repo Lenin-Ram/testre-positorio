@@ -7,13 +7,54 @@
     <title>Document</title>
 
     <Style>
-    
+    .caja{
+        border: 1px solid purple ;
+        background-color: antiquewhite;
+        width: 150px;
+        height: 6rem;
+    }
+    .relative{
+        left: 15px;
+       position: relative;
+    }
+    .absoluto{
+        right: 10px;
+        position: absolute;
+    }
+    .absolute{
+        right: 10rem;
+        position: absolute;
+    }
+    .estatica{
+        position: static;
+    }
+    .fijo{
+        width: 120px;
+        height: 2rem;
+        right: 400px;
+        position: absolute;
+        background-color: brown;
+        }
+        .sticky{
+            right: 20px;
+            top: 10px;
+            position: sticky;
+        }
     </Style>
 </head>
 <body>
     
-    <div class="caja 1">
-
-    </div>
+        <div class="caja estatica">cajas 1</div>
+        <div class="caja relative">cajas 2</div>
+        <div class="caja absoluto">cajas 3</div>
+        <div class="caja absolute">cajas 4</div>
+        <div class="caja fijo">cajas 5</div>
+        <div class="caja sticky">cajas 6</div>
+        <div class="caja ">cajas 7
+            <div class="caja">cajas</div>
+        </div>
+       
+        
+    
 </body>
 </html>
