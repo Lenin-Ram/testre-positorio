@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        section.grid-principal{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 660px;
+            grid-template-rows: repeat(2, 1fr);
+            }
+            p{
+               background-color: #025157; 
+            }
+            /* p.uno{
+                
+            }
+            p.dos{
+                background-color: rgb(23, 70, 70);
+            }
+            p.tres{
+                background-color: rgb(72, 90, 90);
+            }
+            p.video{
+                background-color: rgb(229, 143, 204);
+            } */
+    </style>
+</head>
+<body>
+    <h1>Trabajando con Grid</h1>
+   <section class="grid-principal">
+       <p class="uno">imagen uno</p>
+       <p class="dos">imagen dos</p>
+       <p class="tres">imagen tres</p>
+       <p class="video">video </p>
+   </section>
+</body>
+</html>
