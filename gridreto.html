@@ -10,10 +10,10 @@
             background-color: bisque;
         }
         section.grid-principal{
+            background-color: #025157;
+            padding: 5% 10%;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            height: 660px;
-            grid-template-rows: repeat(2, 1fr);
+            grid-template: repeat(2, 330px) / repeat(2, 1fr);
             }
             p{
                background-color: #025157; 
@@ -23,7 +23,30 @@
 <body>
     <h1>Trabajando con Grid</h1>
    <section class="grid-principal">
-       <p class="uno">imagen uno</p>
+    <article class="feature-card">
+        <div class="feature-content">
+          <figure>
+            <img
+              src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_publish.png"
+              alt="Publish icon"
+            />
+          </figure>
+          <h3>Fill your blog with engaging articles.</h3>
+          <p>
+            Publish to your blog in less time than it takes to drink your
+            morning coffee.
+          </p>
+          <a href="">Publish instantly →</a>
+        </div>
+        <div class="feature-image">
+          <figure>
+            <img
+              src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_publish.png"
+              alt="Publish example"
+            />
+          </figure>
+        </div>
+      </article>
        <p class="dos">imagen dos</p>
        <p class="tres">imagen tres</p>
        <p class="video">video </p>
