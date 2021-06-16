@@ -78,6 +78,11 @@ PAGINA DE NAVEGACION
   text-align: center;
   color: #025157;
 }
+.navbar li {
+  text-align: center;
+  display: inline;
+  padding: 10px;
+}
 
 .menu-item {
   list-style: none;
