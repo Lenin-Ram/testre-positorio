@@ -9,14 +9,7 @@ body{
 
 h1{ 
     
-    /* width:   100px;
-    height:  100px;
-    display: block;
-    padding: 5px;
-    border:solid 3px #025157;
-    margin: 15px; */
-
-    color: orange;
+    color: gray;
     font-size: 24px;
    
 }
@@ -57,73 +50,56 @@ color: violet;
 /*
 PAGINA DE NAVEGACION
 */
-
-
-.header {
+header{
+  display: flex;
+}
+.navbar{
+    width: 200%;
+    text-align: center;
+    color:  #025157;
+}
+.navbar li{
   display: inline;
-  font-size: 1rem;
-  height: 45px;
-  font-family: sans-serif;
-}
-.header > * {
-  display: inline-block;
-  font-size: 16px;
-  vertical-align: middle;
-  height: 100%;
-  line-height: 45px;
-}
 
-.navbar {
-  width: 70%;
-  text-align: center;
-  color: #025157;
 }
-.navbar li {
-  text-align: center;
-  display: inline;
-  padding: 10px;
-}
-
-.menu-item {
+.menu-item{
   list-style: none;
-  display: inline-block;
-  margin-right: 25px;
-  margin-left: 25px;
-}
-
-
-  
-
-.accions{
   text-align: center;
-  color: #025157;
-  font-weight: 500;
+  font-size: 18px;
+  margin-right: 18px;
+  margin-left: 18px;
 }
-
-.actions {
-  width: 95%;
-  text-align: right;
-  font-size: 14px;
-}
-
-.actions > * {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.actions a {
-  color: #67b54b;
-}
-
-.actions button {
-  color: white;
-  background-color: #67b54b;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border: 0;
-  border-radius: 5px;
+.actions{
+  
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+  }
+  
+  .actions {
+    width: 95%;
+    text-align: right;
+    font-size: 14px;
+  }
+  
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
 }
 
 /* VIDEO e IMAGEN*/
