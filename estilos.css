@@ -14,37 +14,85 @@ h1{
    
 }
 
-h2{
-    color: #025157;
-
-    width:   100px;
-    height:  100px;
-    display: block;
-    padding: 40px 15px 30px 320px;
-    border:solid 3px #025157;
-    margin-top: 15px;
-}
-
 h4{
     color:#8b8b8bcc;
 }
 
 button{
-    color: #fff;
-    background-color: #025157;
+  color: white;
+  background-color: #67b54b;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 0;
+  border-radius: 5px;
 }
 
-.parrafo{
+/*
+MEDIA QUERIES
+*/
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+  main {
+    margin-top: 30px;
+  }
 
-    color: green;
+  h1{
+    font-size: 35px;
+  }
+  h2{font-size: 22px;
+  }
+  .banner > img {
+    width: 100%;
+  }
+  p{
+    font-size: 22px;
+  }
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
 }
 
-p{
-font-family: 'Franklin Gothic Medium';
-font-size: 25px;
-color: violet;
-
+/* * dispositivos pequeños en vista landscape (horizontal)
+@media (min-width: 576px and max-width: 767px) {
+  
 }
+
+/** dispositivos medianos (tablets) */
+/* @media (min-width: 768px and max-width: 991px) {
+  
+} */
+
+/** dispositivos grandes (desktops) */
+/* @media (min-width: 992px and max-width: 1199px) {
+  
+} */
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+/* @media (min-width: 1200px) {
+  
+} */ 
 
 
 /*
