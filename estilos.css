@@ -66,11 +66,21 @@ MEDIA QUERIES
 
   .publish > form > div {
     height: 50px;
-    margin-top: 10px;
+    margin-top: 11px;
   }
 
   .publish > form > div > input {
     width: 65%;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .feature-image {
+    display: none;
   }
 }
 
