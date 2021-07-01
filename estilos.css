@@ -205,10 +205,10 @@ header{
   height: 100%;
   }
 
-/*
-MEDIA QUERIES
-*/
-/* @media (max-width: 575px) {
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 575px) {
 .navbar,
 .actions {
   display: none;
@@ -261,9 +261,9 @@ p{
 .feature-image {
   display: none;
 }
-} */
+}
 
-/* * dispositivos pequeños en vista landscape (horizontal)
+/* dispositivos pequeños en vista landscape (horizontal)
 @media (min-width: 576px and max-width: 767px) {
 
 }
