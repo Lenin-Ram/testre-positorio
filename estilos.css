@@ -41,10 +41,11 @@ main {
   margin-top: 30px;
 }
 
-h1{
+.h1{
+  text-align: center;
   font-size: 35px;
 }
-h2{font-size: 22px;
+.h2{font-size: 22px;
 }
 .banner > img {
   width: 100%;
